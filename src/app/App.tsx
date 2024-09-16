@@ -11,7 +11,7 @@ export const App = () => {
     <BrowserRouter>
       <div className="app">
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/" element={<RecipesPage />} />
           <Route path="/:recipeId" element={<RecipePage />} />
           <Route path="*" element={<MainPage />} />
         </Routes>

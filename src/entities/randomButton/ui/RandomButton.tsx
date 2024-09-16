@@ -33,6 +33,12 @@ export const RandomButton = ({ disabled = false }: Props) => {
       >
         Мне повезёт!
       </Link>
+
+      <form>
+        <DishSelect/>
+        <KitchenSelect/>
+        <button></button>
+      </form>
     </div>
   );
 };

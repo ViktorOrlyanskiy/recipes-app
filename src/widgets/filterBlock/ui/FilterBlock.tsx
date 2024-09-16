@@ -26,7 +26,11 @@ export const FilterBlock = () => {
           Наш сервис поможет: выбирайте параметры - и вперед!
         </div>
       </div>
+
       <SetFilters />
+
+<filterRecipes/>
+
 
       <RandomButton />
     </div>

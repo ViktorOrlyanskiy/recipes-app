@@ -6,12 +6,12 @@ import { RecipesList } from "../../../widgets/recipesList";
 
 export const MainPage = () => {
   return (
-    <>
+    <Page>
       <PageHeader />
       <main className="main">
         <FilterBlock />
         <RecipesList />
       </main>
-    </>
+    </Page>
   );
 };

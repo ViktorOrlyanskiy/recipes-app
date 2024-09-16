@@ -64,6 +64,8 @@ export const SingleRecipe = ({ data }: Props) => {
     dispatch(setCurrentRecipeId(currentRecipesIds[index + 1]));
   };
 
+
+  
   return (
     <div className="recipe">
       <div className="recipe__info">
@@ -115,6 +117,8 @@ export const SingleRecipe = ({ data }: Props) => {
           </div>
         </div>
       </div>
+
+      <RecipeInfo/>
       <div className="recipe__image">
         <img src={image} alt="Dish image" />
         <div className="change-recipe-buttons">
@@ -146,6 +150,10 @@ export const SingleRecipe = ({ data }: Props) => {
               />
             </svg>
           </Link>
+
+          <RecipeNavigate/>
+
+          <NavigateSome />
         </div>
       </div>
     </div>
